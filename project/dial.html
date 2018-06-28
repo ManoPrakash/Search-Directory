@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search Directory</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="website.js"></script>
+    <style>
+      /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+      .navbar 
+      {
+        margin-bottom: 50px;
+        border-radius: 0;
+      }
+      /* Remove the jumbotron's default bottom margin */ 
+      .jumbotron 
+      {
+        margin-bottom: 0;
+      }
+   	  body 
+      {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-color: #a8b5b7;
+        background-attachment: fixed;
+	    }
+      footer 
+      {
+    	  position: fixed;
+        left: 0;
+   		  bottom: 0;
+   		  width: 100%;
+   		  color: white;
+   	    text-align: center;
+        background-color: #252828;
+        display:table;
+        padding: 15px;
+      }
+      a.divlink 
+      {
+        text-decoration: none;
+        /* Makes sure the link doesn't get underlined */
+      }
+      .select 
+      {
+  		  position: relative;
+  		  display: block;
+  		  overflow: hidden;
+  		  border-radius: .25em;
+	    }
+      .colorset
+      {
+        background-color: #337ab7;
+        color: white;
+      }
+      .colorset:hover
+      {
+        background-color:#3e94dd;
+      }
+      #setsize
+      {
+    	  position: relative;
+    	  float: left;
+    	  width: 151px;
+    	  height: 151px;
+    	  background-repeat: no-repeat;
+    	  background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Search Directory</h1>      
+        <p>Go ahead for wide range of search</p>
+      </div>
+    </div>
+    <div id="forview">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <li><a id="c1" href="#forview">Entertainment</a></li>
+              <li><a id="c2" href="#forview" >Learn</a></li>
+              <li><a id="c3" href="#forview">News</a></li>
+              <li><a id="c4" href="#forview">Search</a></li>
+              <li><a id="c5" href="#forview">Shopping</a></li>
+              <li><a id="c6" href="#forview">Social</a></li>
+              <li><a id="c7" href="#forview">Sports</a></li>
+      	    </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="underinput"></div>
+    </div>
+    <br><br>
+    <<footer class="container-fluid text-center"></footer> 
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "Search Directory",
+  "description": "Enables you to have quick surf",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "chrome_url_overrides":
+  {
+    "newtab": "dial.html"
+  },
+  "icons": 
+  {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png"
+  },
+  "content_scripts": 
+  [
+    {
+     "js": ["website.js"],
+     "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+  "permissions": 
+  [
+    "http://*/"
+  ]
+}
