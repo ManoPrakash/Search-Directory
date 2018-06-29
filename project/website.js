@@ -46,7 +46,7 @@ function showCategory(x)
 	if(xmlHttp.readyState==0 || xmlHttp.readyState==4)
 	{
 		val=x;
-		xmlHttp.open("GET","http://localhost/project/web.php?val=" + val,true);	
+		xmlHttp.open("GET","https://searchdirectory.000webhostapp.com/web.php?val=" + val,true);	
 		xmlHttp.onreadystatechange = function()
 		{
      		if (this.readyState==4 && this.status==200) 
